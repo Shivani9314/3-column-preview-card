@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 14px;
+    font-size: 16px;
     transition: 0.2s ease;
 }
 
@@ -16,7 +16,7 @@ body {
 .container {
     display: flex;
     border-radius: 5px;
-    max-width: 800px;
+    max-width: 900px;
     width: 80%;
     min-height: 60%;
     border-radius: 10px;
@@ -27,7 +27,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 40px;
     color: white;
     gap: 30px;
@@ -40,13 +40,13 @@ body {
 }
 
 img {
-    width: 55px;
+    width: 80px;
 }
 
 h1 {
     font-family: 'Big Shoulders Display';
     font-weight: 700;
-    font-size: 27px;
+    font-size: 40px;
 }
 
 p {
@@ -111,31 +111,6 @@ button {
     cursor: pointer;
 }
 
-
-/* @media (min-width: 1200px) {
-    .container{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        margin-top: 100px;
-
-    }
-
-    #card-1{
-        background-color: hsl(31, 77%, 52%);
-        border-top-left-radius: 10px;
-        border-top-right-radius: 0px;
-        border-bottom-left-radius: 10px;
-    }
-
-    #card-3{
-        background-color: hsl(179, 100%, 13%);
-        border-bottom-left-radius: 0px;
-        border-bottom-right-radius: 10px;
-        border-top-right-radius: 10px;
-    }
-
-  } */
 
 @media (max-width: 768px) {
 
