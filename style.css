@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 16px;
+    font-size: 1rem; 
     transition: 0.2s ease;
 }
 
@@ -13,12 +13,12 @@ body {
     align-items: center;
 }
 
-.container {
+.card-container {
     display: flex;
-    border-radius: 5px;
+    border-radius: 0.3125rem;
     width: 70%;
     min-height: 60%;
-    border-radius: 10px;
+    border-radius: 0.625rem; 
     overflow: hidden;
 }
 
@@ -27,114 +27,104 @@ body {
     flex-direction: column;
     width: 100%;
     justify-content: space-around;
-    padding: 40px;
+    padding: 2.5rem; 
     color: white;
-    gap: 30px;
+    gap: 1.875rem; 
 }
 
 .content {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 img {
-    width: 80px;
+    width: 5rem; 
 }
 
-h1 {
+.card-heading {
     font-family: 'Big Shoulders Display';
     font-weight: 700;
-    font-size: 40px;
+    font-size: 2.5rem; 
 }
 
-p {
+.card-description {
     font-family: 'Lexend Deca';
     font-weight: 400;
-    line-height: 1.5;
+    line-height: 2;
+    font-size: 16px;
 }
 
-#card-1 {
+#sedan-card {
     background-color: hsl(31, 77%, 52%);
-
 }
 
-#card-2 {
+#suvs-card {
     background-color: hsl(184, 100%, 22%);
 }
 
-#card-3 {
+#luxury-card {
     background-color: hsl(179, 100%, 13%);
-
 }
 
-button {
-    width: 125px;
-    padding: 10px;
-    border-radius: 50px;
+.card-button {
+    width: 10rem;
+    padding: 1rem;
+    border-radius: 3.125rem; 
     border: 1px solid white;
-    font-size: 0.9rem;
-    letter-spacing: 1.2;
+    font-size: 1rem;
+    letter-spacing: 0.075rem;
     font-family: 'Lexend Deca';
+    font-weight: 400;
 }
 
-#button-1 {
+#sedan-button {
     color: hsl(31, 77%, 52%);
 }
 
-#button-2 {
+#suvs-button {
     color: hsl(184, 100%, 22%);
 }
 
-#button-3 {
+#luxury-button {
     color: hsl(179, 100%, 13%);
 }
 
-
-#button-1:hover {
+#sedan-button:hover {
     color: white;
     background-color: hsl(31, 77%, 52%);
     cursor: pointer;
 }
 
-#button-2:hover {
+#suvs-button:hover {
     color: white;
     background-color: hsl(184, 100%, 22%);
     cursor: pointer;
 }
 
-#button-3:hover {
+#luxury-button:hover {
     color: white;
     background-color: hsl(179, 100%, 13%);
-    ;
     cursor: pointer;
 }
 
-
 @media (max-width: 768px) {
-
     body {
-        margin: 250px 0;
+        margin: 15.625rem 0;
     }
 
-    .container {
+    .card-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         width: 80%;
-
-
     }
 
-
-    #card-1 {
+    #sedan-card {
         background-color: hsl(31, 77%, 52%);
     }
 
-    #card-3 {
+    #luxury-card {
         background-color: hsl(179, 100%, 13%);
-
     }
-
-
 }
